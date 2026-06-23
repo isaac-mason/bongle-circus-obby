@@ -1,5 +1,3 @@
-![bongle circus obby](cover.png)
-
 # bongle-circus-obby
 
 A multiplayer obby built with [bongle](https://github.com/isaac-mason/bongle).
