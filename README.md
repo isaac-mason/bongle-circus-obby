@@ -2,7 +2,7 @@
 
 # bongle-circus-obby
 
-A multiplayer obby (obstacle course) built with [bongle](https://github.com/isaac-mason/bongle), the multiplayer voxel game engine for the web. Fork it, remix it, make it your own.
+A multiplayer obby built with [bongle](https://github.com/isaac-mason/bongle).
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/isaac-mason/bongle-circus-obby)
 
