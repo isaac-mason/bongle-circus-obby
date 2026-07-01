@@ -11,7 +11,7 @@ import {
     ENVIRONMENT_OVERWORLD,
     findByName,
     findChildByName,
-    getPov,
+    getSubject,
     getTrait,
     getVisualWorldPosition,
     isOwner,
@@ -325,7 +325,7 @@ script(BallControllerTrait, 'input', (ctx) => {
     });
 
     onUpdate(ctx, () => {
-        if (getPov(ctx) !== ctx.node) return;
+        if (getSubject(ctx) !== ctx.node) return;
         const input = ctx.client?.input;
         if (!input) return;
         const mk = input.mouseKeyboard;
@@ -622,7 +622,7 @@ script(BallControllerTrait, 'camera', (ctx) => {
     if (!env.client) return;
 
     onFrame(ctx, () => {
-        if (getPov(ctx) !== ctx.node) return;
+        if (getSubject(ctx) !== ctx.node) return;
         const t = ctx.trait;
         const ball = ensureBall(t, ctx.node);
         if (!ball) return;
